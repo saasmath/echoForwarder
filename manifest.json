@@ -1,0 +1,12 @@
+{
+  "name": "Echo__Forwarder",
+  "description": "This is an Amazon Echo network forwarder.",
+  "devtools_page": "devtools.html",
+  "background":{"scripts":["jquery.js","config.js","background.js"], "pages": ["background.html"] },
+  "permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "manifest_version": 2,
+  "version": "12"
+}
